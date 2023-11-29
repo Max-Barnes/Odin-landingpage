@@ -1,14 +1,17 @@
 body {
-    display: flex;
     margin: 0;
     padding: 0;
 }
 .header {
+    display: flex;
     border: 2px solid red;
     color: #f9faf8;
-    background-color: #1f2937;
+    background-color: hsl(215, 28%, 17%);
     flex-direction: row;
-    flex: 1;
+    flex: 1 0 0;
     padding: 30px;
-    align-items: flex-end;
-}
+    justify-content: space-between;
+    }
+
+
+
