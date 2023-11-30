@@ -3,15 +3,21 @@ body {
     padding: 0;
 }
 .header {
+    font-family: 'roboto';
     display: flex;
     border: 2px solid red;
     color: #f9faf8;
     background-color: hsl(215, 28%, 17%);
     flex-direction: row;
-    flex: 1 0 0;
+    flex: 1 1 0;
     padding: 30px;
     justify-content: space-between;
     }
-
+a {
+    text-decoration: none;
+}
+a:link, a:visited, a:hover, a:active {
+    color:#E5E7EB;
+}
 
 
