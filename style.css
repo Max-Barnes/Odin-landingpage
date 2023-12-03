@@ -13,6 +13,13 @@ body {
     padding: 30px;
     justify-content: space-between;
     }
+.links {
+    display: flex;
+}
+.logo-text {
+    flex-wrap: nowrap;
+    padding: 0px;
+}
 a {
     text-decoration: none;
 }
