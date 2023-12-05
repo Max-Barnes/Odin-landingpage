@@ -5,6 +5,15 @@ body {
     margin: 0 150px 0 150px;
     padding: 0;
 }
+.hero > h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.hero > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 .header {
     font-size: 18px;
     display: flex;
