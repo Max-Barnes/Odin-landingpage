@@ -3,23 +3,18 @@ body {
     padding: 0;
 }
 .header {
-    font-family: 'roboto';
+    font-family: 'roboto', sans-serif;
     display: flex;
     border: 2px solid red;
     color: #f9faf8;
     background-color: hsl(215, 28%, 17%);
     flex-direction: row;
-    flex: 1 1 0;
+    flex: 0 1 0;
     padding: 30px;
     justify-content: space-between;
     }
-.links {
-    display: flex;
-}
-.logo-text {
-    flex-wrap: nowrap;
-    padding: 0px;
-}
+
+
 a {
     text-decoration: none;
 }
