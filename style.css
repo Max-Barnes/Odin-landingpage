@@ -1,3 +1,6 @@
+* {
+    background-color: hsl(215, 28%, 17%);
+}
 body {
     margin: 0;
     padding: 0;
@@ -5,7 +8,6 @@ body {
 .header {
     font-family: 'roboto', sans-serif;
     display: flex;
-    border: 2px solid red;
     color: #f9faf8;
     background-color: hsl(215, 28%, 17%);
     flex-direction: row;
