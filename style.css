@@ -6,15 +6,19 @@ body {
     padding: 0;
 }
 .header {
-    font-family: 'roboto', sans-serif;
+    font-size: 18px;
     display: flex;
     color: #f9faf8;
     flex-direction: row;
-    flex: 0 1 0;
-    padding: 30px;
+    flex: 1;
+    padding: 20px;
     justify-content: space-between;
+    border: 5px solid red;
+    align-items: center;
     }
-
+.links {
+    gap: 50px;
+}
 
 a {
     text-decoration: none;
