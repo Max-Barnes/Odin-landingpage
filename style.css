@@ -11,6 +11,8 @@ body {
     justify-content: space-between;
     flex-wrap: nowrap;
     flex: 1;
+    height: 800px;
+    margin-top: 50px;
 }
 .hero-text {
     display: flex;
@@ -22,6 +24,7 @@ body {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    margin-top: -10px;
 }
 .hero-text > p {
     font-size: 18px;
@@ -32,6 +35,7 @@ body {
     background-color: #3882f6;
     color: white;
     width: 30%;
+    border-radius: 15px;
 }
 .hero-image {
     display: flex;
