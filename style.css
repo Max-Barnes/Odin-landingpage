@@ -91,16 +91,26 @@ body {
 }
 .block-quote {
     background-color: #E5E7EB;
-    display: flex;
     color: #1f2937;
     width: auto;
     height: 300px;
-    justify-content: center;
-    align-items: center;
-    border: 5px rgb(255, 0, 0);
+    border: 20px solid #E5E7EB;
+    padding-top: 3rem;
+
 }
 .block-quote > p {
     background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight:lighter;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+#siggy {
+    text-align: end;
+    font-size: 22px;
+    font-weight: bolder;
 }
 a {
     text-decoration: none;
