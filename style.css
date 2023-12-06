@@ -1,17 +1,18 @@
 * {
-    background-color: hsl(215, 28%, 17%);
     box-sizing: border-box;
+    background-color: hsl(215, 28%, 17%);
 }
 body {
     margin: 0 150px 0 150px;
     padding: 0;
 }
 .hero-container {
+    background-color: hsl(215, 28%, 17%);
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
     flex: 1;
-    height: 800px;
+    height: 300px;
     margin-top: 50px;
 }
 .hero-text {
@@ -43,6 +44,7 @@ body {
     flex-wrap: wrap;
 }
 .header {
+    background-color: hsl(215, 28%, 17%);
     font-size: 18px;
     display: flex;
     color: #f9faf8;
@@ -56,7 +58,30 @@ body {
 .links {
     gap: 50px;
 }
-
+.information-container {
+    width: 100%;
+    margin: 0 0 0 0;
+    background-color: white;
+}
+.information-container > h1{
+    text-align: center;
+    background-color: white;
+}
+.features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: white;
+    justify-content: center;
+    gap: 80px;
+} 
+.featurebox {
+    height: 175px;
+    width: 175px;
+    border: 5px solid #3882f6;
+    background-color: white;
+    border-radius: 10px;
+}
 a {
     text-decoration: none;
 }
